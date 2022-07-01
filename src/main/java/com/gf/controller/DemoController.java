@@ -20,8 +20,8 @@ public class DemoController {
 
     @RequestMapping("save")
     public Demo save(){
-        Demo demo = new Demo();
-        demo.setName("白洋");
+        Demo demo = new  Demo();
+        demo.setName("白洋样");
         demoService.save(demo);
         return demo;
     }
